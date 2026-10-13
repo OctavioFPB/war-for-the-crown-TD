@@ -40,10 +40,14 @@ Em desenvolvimento...
 ---
 ## 💀​ Inimigos
 Há 3 tipos distintos de inimigos simples(+ chefe final):
-* Inimigo básico
-* Inimigo rápido,porém fraco
-* Inimigo lento, porém resistente
+* Inimigo básico(bárbaro)
+* Inimigo rápido,porém fraco(goblin)
+* Inimigo lento, porém resistente(golem)
 E ao começo da décima onda, surgirá o chefe final da fase, sendo o inimigo mais forte da partida e que possui poderes especiais.
+
+---
+## 🌊 Progressão de dificuldade
+Conforme as hordas de inimigos são derrotados e avança-se de fase, a dificuldade aumenta progressivamente.Cada vez mais inimigos e maior a variação deles. Assim, desafiando cada vez mais as habilidade do jogador que deverá se adaptar aos novos desafios do seu próprio progresso.
 
 
 
