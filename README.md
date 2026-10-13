@@ -29,8 +29,21 @@ Nos confins do mundo conhecido, a outrora modesta colônia de Quimera — a joia
 ---
 ## 🛠️ Tecnologias Utilizadas
  * Motor de Jogo (Engine): Unity 
- * Linguagem de Programação: ...
+ * Linguagem de Programação: C++
  * Arte: Grafismos 2D / Pixel Art.
 
 ---
 ## 🚀 Como Jogar / Testar (Instalação)
+
+Em desenvolvimento...
+
+---
+## 💀​ Inimigos
+Há 3 tipos distintos de inimigos simples(+ chefe final):
+* Inimigo básico
+* Inimigo rápido,porém fraco
+* Inimigo lento, porém resistente
+E ao começo da décima onda, surgirá o chefe final da fase, sendo o inimigo mais forte da partida e que possui poderes especiais.
+
+
+
