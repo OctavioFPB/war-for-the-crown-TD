@@ -26,4 +26,11 @@ Nos confins do mundo conhecido, a outrora modesta colônia de Quimera — a joia
  * Design de Nível Estratégico: Um mapa 2D horizontal cortado por um rio, forçando os inimigos a afunilarem-se na ponte central.
  * Gestão de Recursos: Derrota monstros para ganhares Ouro e acumulares Pontuação, utilizando esses recursos para melhorar as tuas defesas.
 
+---
+## 🛠️ Tecnologias Utilizadas
+ * Motor de Jogo (Engine): Unity 
+ * Linguagem de Programação: ...
+ * Arte: Grafismos 2D / Pixel Art.
 
+---
+## 🚀 Como Jogar / Testar (Instalação)
