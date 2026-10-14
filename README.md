@@ -45,6 +45,19 @@ Há 3 tipos distintos de inimigos simples(+ chefe final):
 * Inimigo lento, porém resistente(golem)
 E ao começo da décima onda, surgirá o chefe final da fase, sendo o inimigo mais forte da partida e que possui poderes especiais.
 
+
+---
+## Mecânicas do Jogador 
+O jogador tem acesso a N sistemas para conseguir responder aos desafios propostos pelos inimigos:
+*geração passiva de recursos
+    -permite geração de recursos para o jogador conseguir realizar ações em casos onde ele ainda não estabeleceu inercia de vantagem
+*aquisição de recursos bônus de acordo com desempenho
+*aquisição e posicionamento de torres para estabelecer uma estrutura de defesa
+    -(tipos de torres serão estabelecidas futuramente)
+*reembolso de torres parcial
+*reposicionamento de torres
+*ajuste de parâmetros do jogo
+
 ---
 ## 🌊 Progressão de dificuldade
 Conforme as hordas de inimigos são derrotados e avança-se de fase, a dificuldade aumenta progressivamente.Cada vez mais inimigos e maior a variação deles. Assim, desafiando cada vez mais as habilidade do jogador que deverá se adaptar aos novos desafios do seu próprio progresso.
