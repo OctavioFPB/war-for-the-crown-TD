@@ -4,11 +4,11 @@ O grande diferencial é o Sistema Híbrido de Combate: para além de construíre
 
 ## 👥 Integrantes
 - Artur Mesquita Jeager (188354)
-    - Implementação do Exportar a árvore para HTML.
+    - Implementação...
 - João Pedro de Oliveira de Carvalho (188402)
-    - Implementação das Pesquisas.
+    - Implementação...
 - Octávio Francisco Petry Bortoluzzi (188380)
-    - Implementação da construção da árvore e exibição.
+    - Implementação...
 ---
 
 ## 📜 História 
