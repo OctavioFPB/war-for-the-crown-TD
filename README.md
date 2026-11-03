@@ -43,7 +43,6 @@ Há 3 tipos distintos de inimigos simples(+ chefe final):
 * Inimigo básico (bárbaro)
 * Inimigo rápido,porém fraco (goblin)
 * Inimigo lento, porém resistente (golem)
-E ao começo da décima onda, surgirá o chefe final da fase, sendo o inimigo mais forte da partida e que possui poderes especiais.
 
 ---
 ## Mecânicas do Jogador 
