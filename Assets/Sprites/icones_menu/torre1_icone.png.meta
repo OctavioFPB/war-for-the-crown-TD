@@ -1,10 +1,16 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/icones_menu/torre1_icone.png.meta
 guid: dc837d3679ef96066bdd4bb40bb28cb7
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6548277357795941326
     second: torre1_icone_0
+========
+guid: f60718293a4b5c6d7e8f90a1b2c3d4e5
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>>> d5b48a372dd69c3f0abf5a872161e9e860eef325:Assets/Sprites/Towers/tower_cube_grey.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +52,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.2857}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -71,35 +77,10 @@ TextureImporter:
   applyGammaDecoding: 0
   swizzle: 50462976
   cookieLightType: 0
-  platformSettings:
-  - serializedVersion: 4
-    buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+  platformSettings: []
   spriteSheet:
     serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/icones_menu/torre1_icone.png.meta
     sprites:
     - serializedVersion: 2
       name: torre1_icone_0
@@ -123,21 +104,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+========
+    sprites: []
+>>>>>>>> d5b48a372dd69c3f0abf5a872161e9e860eef325:Assets/Sprites/Towers/tower_cube_grey.png.meta
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<<< HEAD:Assets/Sprites/icones_menu/torre1_icone.png.meta
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
       torre1_icone_0: 6548277357795941326
+========
+    nameFileIdTable: {}
+>>>>>>>> d5b48a372dd69c3f0abf5a872161e9e860eef325:Assets/Sprites/Towers/tower_cube_grey.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
