@@ -1,6 +1,5 @@
 # 🏰 War For The Crown TD
-Este projeto é um jogo de Tower Defense focado no planeamento tático e posicionamento. A horda de inimigos (monstros e criaturas com chifres) surge de uma caverna e atravessa um percurso até chegar ao castelo que deves proteger. O cenário possui elementos geográficos, como um rio e uma ponte, que funcionam como gargalos estratégicos (bottlenecks) essenciais para a defesa.
-O grande diferencial é o Sistema Híbrido de Combate: para além de construíres defesas estáticas, controlas ativamente um herói (Guerreiro) que pode intercetar os inimigos no caminho.
+Este projeto é um jogo de Tower Defense focado no planeamento tático e posicionamento. A horda de inimigos (zumbis medievais) surgem de no caminho e atravessam o percurso até chegar ao castelo que deves proteger. Para defenderes o reino, necessitas de construir torres defensivas pelo percurso que atacarão os alvos inimigos com o objetivo de elimina-los, assim protegendo a ordem social e o reino imperial.CONTAMOS COM VOSSA CORAGEM!
 
 ## 👥 Integrantes
 - Artur Mesquita Jeager (188354)
@@ -12,13 +11,13 @@ O grande diferencial é o Sistema Híbrido de Combate: para além de construíre
 ---
 
 ## 📜 História 
-Nos confins do mundo conhecido, a outrora modesta colônia de Quimera — a joia mais próspera e distante de Novigrad — vivia a sua verdadeira Era de Ouro. Sob a liderança afável da Princesa Penélope, o reino florescia. Os campos transbordavam com colheitas fartas e as minas vertiam riquezas que garantiam uma vida pacífica e abundante para todos os cidadãos.
+Nos confins do mundo conhecido, a outrora modesta colônia de Quimera, a joia mais próspera e distante de Novigrad, vivia a sua verdadeira Era de Ouro. Sob a liderança afável da Princesa Penélope, o reino florescia. Os campos transbordavam com colheitas fartas e as minas vertiam riquezas que garantiam uma vida pacífica e abundante para todos os cidadãos.
 
-​A ambição, no entanto, é uma picareta cega. Durante uma expedição aos limites do território, um grupo de mineradores e aventureiros veteranos deparou-se com uma fenda oculta. O que parecia ser apenas mais uma caverna revelou-se uma imensa e antiga Dungeon. As paredes daquele abismo pulsavam com minérios luminescentes e exóticos, de um valor incalculável, jamais vistos nas terras de Novigrad. Cegados pelo fascínio da riqueza absoluta, os exploradores ignoraram o bom senso e os limites da segurança, adentrando as profundezas escuras sem o preparo adequado.
+A ambição, no entanto, é uma picareta cega. Durante uma expedição aos limites do território, um grupo de mineradores e aventureiros veteranos deparou-se com uma fenda oculta. O que parecia ser apenas mais uma caverna revelou-se uma imensa e antiga cripta. As paredes daquele abismo pulsavam com minérios luminescentes e exóticos, de um valor incalculável, jamais vistos nas terras de Novigrad. Cegados pelo fascínio da riqueza absoluta, os exploradores ignoraram o bom senso e os limites da segurança, adentrando as profundezas escuras sem o preparo adequado.
 
-​O preço dessa ganância foi a ruína. Ao escavarem o coração da masmorra, os aventureiros quebraram o silêncio de séculos e despertaram o Rei Goblin. Enfurecido pela invasão, o soberano subterrâneo convocou a sua gigantesca e implacável horda de servos para a superfície. O que começou como uma busca por glória e ouro transformou-se numa marcha de destruição, e os tambores de guerra agora ecoam pelo vale.
+O preço dessa ganância foi a ruína. Ao escavarem o coração da cripta, os aventureiros quebraram o silêncio de séculos e libertaram uma maldição esquecida. Os antigos soldados, nobres e camponeses sepultados naquele lugar ergueram-se dos seus túmulos, e os mortos voltaram a caminhar. Guiados por uma fome insaciável, os zumbis marcharam em massa para a superfície. O que começou como uma busca por glória e ouro transformou-se numa procissão de destruição, e os gemidos dos mortos agora ecoam pelo vale.
 
-​O destino de Quimera está nas tuas mãos. A horda sedenta por sangue marcha implacavelmente em direção aos portões do reino. A tua missão é erguer as defesas, empunhar a tua lâmina na linha de frente e proteger o castelo a todo o custo. Não se trata apenas de defender minérios ou muralhas, mas de garantir que o brilho e a esperança do povo de Penélope não sejam engolidos pela escuridão.
+O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança implacavelmente em direção aos portões do reino. A tua missão é erguer as defesas, posicionar torres e armadilhas ao longo do caminho e proteger o castelo a todo o custo. Não se trata apenas de defender minérios ou muralhas, mas de garantir que o brilho e a esperança do povo de Penélope não sejam engolidos pela escuridão.
 
 --- 
 ## ✨ Funcionalidades Principais (Features)
@@ -29,8 +28,8 @@ Nos confins do mundo conhecido, a outrora modesta colônia de Quimera — a joia
 ---
 ## 🛠️ Tecnologias Utilizadas
  * Motor de Jogo (Engine): Unity 
- * Linguagem de Programação: C++
- * Arte: Grafismos 2D / Pixel Art.
+ * Linguagem de Programação: C#
+ * Arte: 2D isométrica.
 
 ---
 ## 🚀 Como Jogar / Testar (Instalação)
@@ -40,9 +39,9 @@ Em desenvolvimento...
 ---
 ## 💀​ Inimigos
 Há 3 tipos distintos de inimigos simples(+ chefe final):
-* Inimigo básico (bárbaro)
-* Inimigo rápido,porém fraco (goblin)
-* Inimigo lento, porém resistente (golem)
+* Inimigo básico (cavaleiro)
+* Inimigo rápido,porém fraco (camponês)
+* Inimigo lento, porém resistente (carrasco)
 
 ---
 ## Mecânicas do Jogador 
@@ -58,7 +57,7 @@ O jogador tem acesso a N sistemas para conseguir responder aos desafios proposto
 
 ---
 ## 🌊 Progressão de dificuldade
-Conforme as hordas de inimigos são derrotados e avança-se de fase, a dificuldade aumenta progressivamente. Cada vez mais inimigos e maior a variação deles. Assim, desafiando cada vez mais as habilidade do jogador que deverá se adaptar aos novos desafios do seu próprio progresso.
+Conforme as hordas de inimigos são derrotados e avança-se de fase, a dificuldade aumenta progressivamente. Cada vez mais, e diferentes, inimigos. Assim, desafiando cada vez mais as habilidade do jogador que deverá se adaptar as novas hordas que ameaçaram o seu progresso.
 
 
 
