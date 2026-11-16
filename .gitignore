@@ -7,3 +7,7 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+.vs/
+*.csproj
+*.sln 
+*.slnx
