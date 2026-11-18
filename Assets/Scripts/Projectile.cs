@@ -1,4 +1,3 @@
-using Unity.Mathematics;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -36,6 +35,7 @@ public class Projectile : MonoBehaviour
 
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
+        
         if (!orphaned)
         {
             if (Vector2.Distance(transform.position, tgt.position) < 0.15f)
@@ -63,6 +63,7 @@ public class Projectile : MonoBehaviour
             e.health -= 1;
             if (e.health <= 0) Destroy(e.gameObject);
         }
+        CoinManager.instance.UpdateCoins(5);
         Destroy(gameObject);
     }
 }

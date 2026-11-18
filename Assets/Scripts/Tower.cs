@@ -6,6 +6,8 @@ public class Tower : MonoBehaviour
     public float Range = 3f;
     public GameObject projectileprefab;
     public Transform firepoint;
+    public int towerPrice = 1;
+    public static float YRatio = 1f;
 
     private float fireCooldown = 0f;
 
@@ -27,7 +29,9 @@ public class Tower : MonoBehaviour
         float bestProgress = -1f;
         foreach(Enemy e in enemies)
         {
-            float dist = Vector2.Distance(transform.position, e.transform.position);
+            Vector2 d = e.transform.position - transform.position;
+            d.y /= YRatio;
+            float dist = d.magnitude;
             if(dist <= Range)
             {
                 if(e.currentWayPoint > bestProgress)

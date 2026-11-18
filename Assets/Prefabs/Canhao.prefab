@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4939283284561590624}
   - component: {fileID: 2735569616470898135}
+  - component: {fileID: -6523258160851241773}
   m_Layer: 0
   m_Name: Canhao
   m_TagString: Untagged
@@ -92,3 +93,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &-6523258160851241773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874153632037706098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b569d60e0759ba041b240a2dc2492616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  FireRate: 2
+  Range: 4
+  projectileprefab: {fileID: 7772521021208388516, guid: f6abca5b159914140a1d2ae347391a18, type: 3}
+  firepoint: {fileID: 4939283284561590624}
+  towerPrice: 50

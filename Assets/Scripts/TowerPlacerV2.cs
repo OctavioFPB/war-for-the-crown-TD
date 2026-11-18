@@ -43,6 +43,10 @@ public class TowerPlacerV2 : MonoBehaviour
 
         ghostInstance.transform.position = worldCenter + new Vector3(0, placementMap.cellSize.y * 0.25f);
 
+        Tower selected = TowerSelectionUI.SelectedTowerPrefab.GetComponent<Tower>();
+        
+        ghostInstance.GetComponent<GhostTower>().ShowRange(selected.Range, Tower.YRatio);
+
         bool valid = placementMap.HasTile(cellPos) && !occupiedTiles.Contains(cellPos);
 
         ghostInstance.GetComponent<GhostTower>().SetValid(valid);
@@ -66,8 +70,15 @@ public class TowerPlacerV2 : MonoBehaviour
 
         Instantiate(TowerSelectionUI.SelectedTowerPrefab, ghostInstance.transform.position, Quaternion.identity);
 
+        CoinManager.instance.UpdateCoins(-TowerSelectionUI.SelectedTowerPrefab.GetComponent<Tower>().towerPrice);
+
         TowerSelectionUI.SelectedTowerPrefab = null;
 
         occupiedTiles.Add(cellPos);
+    }
+
+    void Start()
+    {
+        Tower.YRatio = placementMap.cellSize.y / placementMap.cellSize.x;
     }
 }

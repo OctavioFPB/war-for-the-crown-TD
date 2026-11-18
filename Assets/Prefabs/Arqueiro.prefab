@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4513888650331954722}
   - component: {fileID: 6014424413316269734}
+  - component: {fileID: 6394937408933748793}
   m_Layer: 0
   m_Name: Arqueiro
   m_TagString: Untagged
@@ -92,3 +93,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &6394937408933748793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6010851477000060143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b569d60e0759ba041b240a2dc2492616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  FireRate: 0.5
+  Range: 6
+  projectileprefab: {fileID: 1662411669074663730, guid: a25fe6e8616b13643af6bea38a4a0719, type: 3}
+  firepoint: {fileID: 4513888650331954722}
+  towerPrice: 60
