@@ -46,8 +46,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 2
+<<<<<<< Updated upstream
   health: 5
   reward: 3
+=======
+  health: 3
+  reward: 10
+>>>>>>> Stashed changes
   waypoints: []
   currentWayPoint: 0
   frameRate: 0.15
