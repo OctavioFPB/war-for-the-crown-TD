@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 2
-  health: 2
+  health: 5
+  reward: 3
   waypoints: []
   currentWayPoint: 0
   frameRate: 0.15
@@ -62,7 +63,7 @@ MonoBehaviour:
   walkLeft:
   - {fileID: -7724820326948415615, guid: 85dd056701e4d4a34bdf6e50118f1e31, type: 3}
   - {fileID: 3830400160102292945, guid: 82d5ba3e382b6c3b292fff18c43b2cd9, type: 3}
-  logDirection: 0
+  logDirection: 1
 --- !u!212 &9167215694439797172
 SpriteRenderer:
   serializedVersion: 3

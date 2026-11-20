@@ -107,5 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
   speed: 4
   tgt: {fileID: 0}
+  hitSFX: {fileID: 8300000, guid: b0de6bfefdd3e8214b58b6e13dd8cbb9, type: 3}
+  deathSFX: {fileID: 8300000, guid: 68c2d7afd0fff34d8bbd895bb4f02e7e, type: 3}
   hitRadius: 0.3
   orphanRange: 3

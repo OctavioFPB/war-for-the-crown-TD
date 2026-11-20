@@ -5,6 +5,9 @@ public class Projectile : MonoBehaviour
     public float speed = 8f;
     public Transform tgt;
 
+    public AudioClip hitSFX;
+    public AudioClip deathSFX;
+
     public float hitRadius = 0.3f;
     public float orphanRange = 3f;
     private Vector3 dir = Vector3.right;
@@ -61,9 +64,15 @@ public class Projectile : MonoBehaviour
         if (e != null)
         {
             e.health -= 1;
-            if (e.health <= 0) Destroy(e.gameObject);
+            AudioManager.Instance.PlaySFX(hitSFX);
+            if (e.health <= 0) 
+            {
+                Destroy(e.gameObject);
+                CoinManager.instance.UpdateCoins(e.reward);
+                AudioManager.Instance.PlaySFX(deathSFX);
+            }
+
         }
-        CoinManager.instance.UpdateCoins(5);
         Destroy(gameObject);
     }
 }

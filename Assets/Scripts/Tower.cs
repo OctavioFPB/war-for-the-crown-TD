@@ -9,6 +9,7 @@ public class Tower : MonoBehaviour
     public int towerPrice = 1;
     public static float YRatio = 1f;
 
+
     private float fireCooldown = 0f;
 
     void Update()

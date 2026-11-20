@@ -8,6 +8,8 @@ public class TowerPlacerV2 : MonoBehaviour
     public Tilemap placementMap;
     public Tilemap nonPlaceableMap;
 
+    public AudioClip placeSFX;
+
     public GameObject ghostPrefab;
 
     private HashSet<Vector3Int> occupiedTiles = new HashSet<Vector3Int>();
@@ -75,6 +77,9 @@ public class TowerPlacerV2 : MonoBehaviour
         TowerSelectionUI.SelectedTowerPrefab = null;
 
         occupiedTiles.Add(cellPos);
+
+        AudioManager.Instance.PlaySFX(placeSFX);
+
     }
 
     void Start()
