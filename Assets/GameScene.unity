@@ -2639,6 +2639,7 @@ RectTransform:
   - {fileID: 746819434}
   - {fileID: 1806395777}
   - {fileID: 1155618243}
+  - {fileID: 1380699446}
   - {fileID: 121818630}
   - {fileID: 1056107405}
   m_Father: {fileID: 0}
@@ -2680,7 +2681,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1814187752}
-  - {fileID: 1380699446}
   m_Father: {fileID: 114893459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -3160,7 +3160,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 746819433}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce7d6a205045bebebdfa933691fd4c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 46280f9bc7884854ab401f93b7865c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerSelectionUI
 --- !u!1 &788358103
@@ -3174,6 +3174,7 @@ GameObject:
   - component: {fileID: 788358104}
   - component: {fileID: 788358106}
   - component: {fileID: 788358105}
+  - component: {fileID: 788358107}
   m_Layer: 5
   m_Name: HealthTxt
   m_TagString: Untagged
@@ -3300,6 +3301,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788358103}
   m_CullTransparentMesh: 1
+--- !u!114 &788358107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788358103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b72788bdc95e174eb651c0fc69da783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthManager
+  health: 100
+  healthTxt: {fileID: 788358105}
 --- !u!1 &842931750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,11 +5230,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 788358104}
-  m_Father: {fileID: 121818630}
+  m_Father: {fileID: 114893459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: 0}
+  m_AnchoredPosition: {x: 418, y: -18}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1380699448
@@ -5269,7 +5284,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1380699445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 422efd5e4547df380a5644defbcdde54, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b72788bdc95e174eb651c0fc69da783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthManager
   health: 100
@@ -5418,7 +5433,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1517435403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce7d6a205045bebebdfa933691fd4c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 46280f9bc7884854ab401f93b7865c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerSelectionUI
 --- !u!1 &1543900074
@@ -6048,7 +6063,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1806395776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce7d6a205045bebebdfa933691fd4c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 46280f9bc7884854ab401f93b7865c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerSelectionUI
 --- !u!1 &1814187751
