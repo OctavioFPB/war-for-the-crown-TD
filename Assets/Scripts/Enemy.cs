@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [Header("Movimento")]
+    [Header("Atributos")]
     public float speed = 2f;
-    public int health = 1;
+    public int health = 3;
+    public int reward = 5;
     public Transform[] waypoints;
     public int currentWayPoint = 0;
 
@@ -50,9 +51,12 @@ public class Enemy : MonoBehaviour
             currentWayPoint++;
             if (currentWayPoint >= waypoints.Length)
             {
+
+                HealthManager.Instance.UpdateHealth(-1);
                 Destroy(gameObject);
                 return;
             }
+
         }
     }
 
@@ -74,13 +78,13 @@ public class Enemy : MonoBehaviour
         string nome;
         if (screenDir.y >= 0)
         {
-            if (screenDir.x >= 0) { current = walkRight;   nome = "Cima-Direita"; }
-            else                  { current = walkUp;    nome = "Cima-Esquerda"; }
+            if (screenDir.x >= 0) { current = walkRight;   nome = "Direita"; }
+            else                  { current = walkUp;    nome = "Cima"; }
         }
         else
         {
-            if (screenDir.x >= 0) { current = walkDown; nome = "Baixo-Direita"; }
-            else                  { current = walkLeft;  nome = "Baixo-Esquerda"; }
+            if (screenDir.x >= 0) { current = walkDown; nome = "Baixo"; }
+            else                  { current = walkLeft;  nome = "Esquerda"; }
         }
 
         if (logDirection) Debug.Log($"Direcao: {nome}", this);
@@ -95,4 +99,5 @@ public class Enemy : MonoBehaviour
         if (current != null && current.Length > frameIndex)
             spriteRenderer.sprite = current[frameIndex];
     }
+
 }
