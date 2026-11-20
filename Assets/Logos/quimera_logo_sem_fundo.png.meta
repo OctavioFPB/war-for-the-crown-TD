@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 4b24fa5812db57ee185600d2c4578366
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5954087688425047240
+    second: quimera_logo_sem_fundo_0
+  - first:
+      213: -5526914016076060660
+    second: quimera_logo_sem_fundo_1
+  - first:
+      213: 8975625326406365396
+    second: quimera_logo_sem_fundo_2
+  - first:
+      213: -8757268321018440225
+    second: quimera_logo_sem_fundo_3
+  - first:
+      213: 8438883145745508073
+    second: quimera_logo_sem_fundo_4
+  - first:
+      213: 7203960006345051291
+    second: quimera_logo_sem_fundo_5
+  - first:
+      213: -7592832738862946723
+    second: quimera_logo_sem_fundo_6
+  - first:
+      213: 3567391222987393213
+    second: quimera_logo_sem_fundo_7
+  - first:
+      213: -8572177897512942893
+    second: quimera_logo_sem_fundo_8
+  - first:
+      213: -8717634211827465139
+    second: quimera_logo_sem_fundo_9
+  - first:
+      213: 2671380644864825886
+    second: quimera_logo_sem_fundo_10
+  - first:
+      213: -177178684388742775
+    second: quimera_logo_sem_fundo_11
+  - first:
+      213: -3455264190972221595
+    second: quimera_logo_sem_fundo_12
+  - first:
+      213: 208554484747242388
+    second: quimera_logo_sem_fundo_13
+  - first:
+      213: 1096439322475312827
+    second: quimera_logo_sem_fundo_14
+  - first:
+      213: 4197813811059361530
+    second: quimera_logo_sem_fundo_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_0
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 385
+        width: 774
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bf5e12bc4de5da0800000000000000
+      internalID: -5954087688425047240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 187
+        width: 1346
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08a8a73cf47c43b0800000000000000
+      internalID: -5526914016076060660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 86
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d07371fda3df8c70800000000000000
+      internalID: 8975625326406365396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 87
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd51aea2cdee77680800000000000000
+      internalID: -8757268321018440225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 87
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6213b828fec1570800000000000000
+      internalID: 8438883145745508073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 86
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c4152257b99f360800000000000000
+      internalID: 7203960006345051291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 86
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d562e114ad6d0a690800000000000000
+      internalID: -7592832738862946723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_7
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 87
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8820d9a6be18130800000000000000
+      internalID: 3567391222987393213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_8
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 86
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2494b9e91890980800000000000000
+      internalID: -8572177897512942893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 86
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d444b325fddb40780800000000000000
+      internalID: -8717634211827465139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_10
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 87
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a950dfa86a21520800000000000000
+      internalID: 2671380644864825886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_11
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 86
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989ec3fdce88a8df0800000000000000
+      internalID: -177178684388742775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_12
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 87
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56729fb668f6c00d0800000000000000
+      internalID: -3455264190972221595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_13
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 87
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b8cabe23fe4e200800000000000000
+      internalID: 208554484747242388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_14
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 86
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb639ed21c5573f00800000000000000
+      internalID: 1096439322475312827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quimera_logo_sem_fundo_15
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 86
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af60c619b61a14a30800000000000000
+      internalID: 4197813811059361530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      quimera_logo_sem_fundo_0: -5954087688425047240
+      quimera_logo_sem_fundo_1: -5526914016076060660
+      quimera_logo_sem_fundo_10: 2671380644864825886
+      quimera_logo_sem_fundo_11: -177178684388742775
+      quimera_logo_sem_fundo_12: -3455264190972221595
+      quimera_logo_sem_fundo_13: 208554484747242388
+      quimera_logo_sem_fundo_14: 1096439322475312827
+      quimera_logo_sem_fundo_15: 4197813811059361530
+      quimera_logo_sem_fundo_2: 8975625326406365396
+      quimera_logo_sem_fundo_3: -8757268321018440225
+      quimera_logo_sem_fundo_4: 8438883145745508073
+      quimera_logo_sem_fundo_5: 7203960006345051291
+      quimera_logo_sem_fundo_6: -7592832738862946723
+      quimera_logo_sem_fundo_7: 3567391222987393213
+      quimera_logo_sem_fundo_8: -8572177897512942893
+      quimera_logo_sem_fundo_9: -8717634211827465139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

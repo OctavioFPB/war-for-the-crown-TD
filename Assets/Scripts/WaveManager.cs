@@ -40,7 +40,7 @@ public class WaveManager : MonoBehaviour
         if (waveRunning) return;
         if (currentWaveIndex >= waves.Length) return;
 
-        StartCoroutine(RunWave());
+        StartCoroutine(RunWave()); 
 
     }
 
