@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using TMPro;
 
 [System.Serializable]
 public class WaveData
@@ -23,15 +22,12 @@ public class WaveManager : MonoBehaviour
 
     public Transform[] wayPoints;
 
-    public TextMeshProUGUI waveTxt;
-
     private int currentWaveIndex = 0;
     private bool waveRunning = false;
 
     void Start()
     {
         startWaveButton.onClick.AddListener(StartWave);
-        UpdateWaveText();
     }
 
     public void StartWave()
@@ -81,15 +77,8 @@ public class WaveManager : MonoBehaviour
             yield break;
         }
 
-        // Ainda tem waves: libera o botão para a próxima
         waveRunning = false;
         startWaveButton.interactable = true;
-        UpdateWaveText();
-    }
-
-    void UpdateWaveText()
-    {
-        waveTxt.text = (currentWaveIndex + 1).ToString();
     }
 
     void SpawnEnemy(GameObject prefab)
