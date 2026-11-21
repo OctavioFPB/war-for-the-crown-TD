@@ -6,8 +6,9 @@ public class HealthManager : MonoBehaviour
 {
     
     public static HealthManager Instance;
-    public int health = 50;
+    public int health = 100;
     public TextMeshProUGUI healthTxt;
+
     private void Awake()
     {
         Instance = this;
@@ -17,11 +18,12 @@ public class HealthManager : MonoBehaviour
     public void UpdateHealth(int chaAmount)
     {
         health += chaAmount;
+        if (health < 0) health = 0;
         healthTxt.text = health.ToString();
-        
-        if(health<=0)
+
+        if (health <= 0 && GameManager.Instance != null)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            GameManager.Instance.Defeat();
         }
     }
 }

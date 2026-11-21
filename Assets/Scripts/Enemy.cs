@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour
     public float speed = 2f;
     public int health = 3;
     public int reward = 5;
-    public int damage = 5;
     public Transform[] waypoints;
     public int currentWayPoint = 0;
 
@@ -58,6 +57,7 @@ public class Enemy : MonoBehaviour
             if (currentWayPoint >= waypoints.Length)
             {
 
+                HealthManager.Instance.UpdateHealth(-1);
                 Destroy(gameObject);
                 return;
             }

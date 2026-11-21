@@ -84,7 +84,6 @@ public class WaveManager : MonoBehaviour
         // Ainda tem waves: libera o botão para a próxima
         waveRunning = false;
         startWaveButton.interactable = true;
-        currentWaveIndex++;
         UpdateWaveText();
     }
 
