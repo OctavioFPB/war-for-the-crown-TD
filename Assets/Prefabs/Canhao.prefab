@@ -113,7 +113,6 @@ MonoBehaviour:
   Range: 4
   projectileprefab: {fileID: 7772521021208388516, guid: f6abca5b159914140a1d2ae347391a18, type: 3}
   firepoint: {fileID: 4939283284561590624}
-  towerPrice: 20
 --- !u!61 &8774164752422829167
 BoxCollider2D:
   m_ObjectHideFlags: 0
