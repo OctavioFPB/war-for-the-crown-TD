@@ -4296,8 +4296,8 @@ Tilemap:
   - first: {x: -2, y: 9, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 11
+      m_TileIndex: 6
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4372,7 +4372,7 @@ Tilemap:
     m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 3c37483813e774a409458170a79bc857, type: 2}
   - serializedVersion: 2
-    m_RefCount: 18
+    m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 2523f78bed90d2240a26ad0507f89182, type: 2}
   - serializedVersion: 2
     m_RefCount: 2
@@ -4384,7 +4384,7 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 11400000, guid: d54d170d130b70646acff73052205ed2, type: 2}
   - serializedVersion: 2
-    m_RefCount: 0
+    m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 1323c1f26dc8a9545b28659ded6e2011, type: 2}
   - serializedVersion: 2
     m_RefCount: 1
@@ -4433,8 +4433,8 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 7496199970036131145, guid: b187bf2d80b953041a450057a3350393, type: 3}
   - serializedVersion: 2
-    m_RefCount: 0
-    m_Data: {fileID: 6269418331777441988, guid: df8796afbd3176442ba114c223d80fe8, type: 3}
+    m_RefCount: 1
+    m_Data: {fileID: 6810099693122983518, guid: 7c26884f130469b47a74451977e6a9e5, type: 3}
   - serializedVersion: 2
     m_RefCount: 6
     m_Data: {fileID: 6397766773756046653, guid: 030a28e6a6ea73da493bc5091fa36739, type: 3}
@@ -4463,7 +4463,7 @@ Tilemap:
     m_RefCount: 5
     m_Data: {fileID: -8089589131949288429, guid: 0bfc80188e9d4b0409eb79d1ec3adf11, type: 3}
   - serializedVersion: 2
-    m_RefCount: 18
+    m_RefCount: 17
     m_Data: {fileID: -7493430557292016992, guid: 32993d4423ffd114f964b350f8433a1d, type: 3}
   - serializedVersion: 2
     m_RefCount: 2
@@ -5991,7 +5991,6 @@ MonoBehaviour:
   - {fileID: 1193460786}
   - {fileID: 1941394421}
   - {fileID: 677725489}
-  waveTxt: {fileID: 0}
 --- !u!4 &1796877132
 Transform:
   m_ObjectHideFlags: 0
@@ -6574,7 +6573,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

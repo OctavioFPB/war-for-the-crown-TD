@@ -7,18 +7,18 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    guid: 8129153cd2f51c62e833c65608f6abe8
   - enabled: 1
     path: Assets/PrincipalGameSceneEasy.unity
-    guid: 76af69ac69cf57bcc9d2895c719674e5
-  - enabled: 1
-    path: Assets/PrincipalGameSceneNormal.unity
-    guid: d8123f305ac72519e9d89a45f289231a
+    guid: 4fee1e9048c0eefa0b413832923383ce
   - enabled: 1
     path: Assets/PrincipalGameSceneHard.unity
-    guid: 8ce6fe3c40b55e48e8efa93496eb2401
+    guid: 06ec838454620aed3af0ca84f7d5807e
   - enabled: 1
     path: Assets/Menu Principal.unity
     guid: 8a17751626f0c00b884aa32d83c4ff62
+  - enabled: 1
+    path: Assets/PrincipalGameSceneNormal.unity
+    guid: c2b0f8895accd8a46b5b3f6cc07c6042
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
