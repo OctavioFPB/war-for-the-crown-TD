@@ -46,13 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 2
-
-  health: 3
-  reward: 10
-
   health: 8
   reward: 5
-
   waypoints: []
   currentWayPoint: 0
   frameRate: 0.15

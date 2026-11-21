@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4939283284561590624}
   - component: {fileID: 2735569616470898135}
   - component: {fileID: -6523258160851241773}
-  - component: {fileID: 1906901303163864915}
+  - component: {fileID: 8774164752422829167}
   m_Layer: 0
   m_Name: Canhao
   m_TagString: Untagged
@@ -106,19 +106,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b569d60e0759ba041b240a2dc2492616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
-
-  upgradeStages:
-  - range: 5
-    fireRate: 0.9
-    price: 10
+  upgradeStages: []
   upgradeStage: 0
-  towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: 765ee1a2a4cc6014283cd3ad1734372f, type: 3}
+  towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: e13e0e61a4f2e1a40822a9703ba0f07b, type: 3}
   FireRate: 1
   Range: 4
   projectileprefab: {fileID: 7772521021208388516, guid: f6abca5b159914140a1d2ae347391a18, type: 3}
   firepoint: {fileID: 4939283284561590624}
   towerPrice: 20
---- !u!61 &1906901303163864915
+--- !u!61 &8774164752422829167
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,4 +160,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.88, y: 1.47}
   m_EdgeRadius: 0
-
