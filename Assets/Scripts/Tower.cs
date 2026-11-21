@@ -25,10 +25,6 @@ public class Tower : MonoBehaviour
     public static float YRatio = 1f;
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
     private float fireCooldown = 0f;
 
     private void Awake()

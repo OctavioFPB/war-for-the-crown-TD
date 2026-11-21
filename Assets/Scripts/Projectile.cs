@@ -64,7 +64,6 @@ public class Projectile : MonoBehaviour
         if (e != null)
         {
             e.health -= 1;
-<<<<<<< Updated upstream
             AudioManager.Instance.PlaySFX(hitSFX);
             if (e.health <= 0) 
             {
@@ -73,13 +72,11 @@ public class Projectile : MonoBehaviour
                 AudioManager.Instance.PlaySFX(deathSFX);
             }
 
-=======
             if (e.health <= 0)
             {
                 Destroy(e.gameObject);
                 CoinManager.instance.UpdateCoins(15);
             }
->>>>>>> Stashed changes
         }
         Destroy(gameObject);
     }
