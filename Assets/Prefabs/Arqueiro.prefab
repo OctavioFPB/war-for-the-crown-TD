@@ -106,17 +106,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b569d60e0759ba041b240a2dc2492616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
-  upgradeStages:
-  - range: 6.5
-    fireRate: 0.3
-    price: 100
+
+upgradeStages:
+  - range: 0.7
+    fireRate: 0.5
+    price: 30
   upgradeStage: 0
   towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: 765ee1a2a4cc6014283cd3ad1734372f, type: 3}
-  FireRate: 0.5
+  FireRate: 0.8
   Range: 6
   projectileprefab: {fileID: 1662411669074663730, guid: a25fe6e8616b13643af6bea38a4a0719, type: 3}
   firepoint: {fileID: 4513888650331954722}
-  towerPrice: 60
+  towerPrice: 40
 --- !u!61 &-5183537153727202367
 BoxCollider2D:
   m_ObjectHideFlags: 0

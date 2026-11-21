@@ -1,17 +1,30 @@
-# 🏰 War For The Crown TD
-Este projeto é um jogo de Tower Defense focado no planeamento tático e posicionamento. A horda de inimigos (zumbis medievais) surgem de no caminho e atravessam o percurso até chegar ao castelo que deves proteger. Para defenderes o reino, necessitas de construir torres defensivas pelo percurso que atacarão os alvos inimigos com o objetivo de elimina-los, assim protegendo a ordem social e o reino imperial.CONTAMOS COM VOSSA CORAGEM!
+# 🏰 **Quimera: Cerco dos Mortos**
 
-## 👥 Integrantes
-- Artur Mesquita Jeager (188354)
-    - Implementação...
-- João Pedro de Oliveira de Carvalho (188402)
-    - Implementação...
-- Octávio Francisco Petry Bortoluzzi (188380)
-    - Implementação...
+> *Os mortos marcham sobre Quimera. Ergue as tuas defesas, proteja o castelo e salve a coroa. **Contamos com a vossa coragem!***
+
+**Quimera: Cerco dos Mortos** é um jogo de **Tower Defense** de temática medieval e *zumbi*, com visão isométrica, focado em **planejamento tático e posicionamento**. Hordas de mortos-vivos saem da caverna e atravessam o percurso até o castelo que deves proteger. Para defender o reino, deves construir torres ao longo do caminho, eliminar seus inimigos, ganha ouro e reforçar as tuas defesas a cada nova onda.
+
 ---
 
-## 📜 História 
-Nos confins do mundo conhecido, a outrora modesta colônia de Quimera, a joia mais próspera e distante de Novigrad, vivia a sua verdadeira Era de Ouro. Sob a liderança afável da Princesa Penélope, o reino florescia. Os campos transbordavam com colheitas fartas e as minas vertiam riquezas que garantiam uma vida pacífica e abundante para todos os cidadãos.
+## 📑 Índice
+
+- [História](#-história)
+- [Como jogar](#-como-jogar)
+- [Funcionalidades](#-funcionalidades)
+- [Torres de defesa](#-torres-de-defesa)
+- [Inimigos](#-inimigos)
+- [Mecânicas do jogador](#-mecânicas-do-jogador)
+- [Progressão de dificuldade](#-progressão-de-dificuldade)
+- [Tecnologias](#-tecnologias)
+- [Como executar o projeto](#-como-executar-o-projeto)
+- [Roadmap](#%EF%B8%8F-roadmap)
+- [Integrantes](#-integrantes)
+
+---
+
+## 📜 História
+
+Nos confins do mundo conhecido, a outrora modesta colônia de **Quimera**, a joia mais próspera e distante de **Novigrad**, vivia a sua verdadeira Era de Ouro. Sob a liderança afável da **Princesa Penélope**, o reino florescia. Os campos transbordavam com colheitas fartas e as minas vertiam riquezas que garantiam uma vida pacífica e abundante para todos os cidadãos.
 
 A ambição, no entanto, é uma picareta cega. Durante uma expedição aos limites do território, um grupo de mineradores e aventureiros veteranos deparou-se com uma fenda oculta. O que parecia ser apenas mais uma caverna revelou-se uma imensa e antiga cripta. As paredes daquele abismo pulsavam com minérios luminescentes e exóticos, de um valor incalculável, jamais vistos nas terras de Novigrad. Cegados pelo fascínio da riqueza absoluta, os exploradores ignoraram o bom senso e os limites da segurança, adentrando as profundezas escuras sem o preparo adequado.
 
@@ -19,46 +32,134 @@ O preço dessa ganância foi a ruína. Ao escavarem o coração da cripta, os av
 
 O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança implacavelmente em direção aos portões do reino. A tua missão é erguer as defesas, posicionar torres e armadilhas ao longo do caminho e proteger o castelo a todo o custo. Não se trata apenas de defender minérios ou muralhas, mas de garantir que o brilho e a esperança do povo de Penélope não sejam engolidos pela escuridão.
 
---- 
-## ✨ Funcionalidades Principais (Features)
- * Construção de Torres: Áreas específicas ao longo do caminho para colocar diferentes tipos de defesas (ex: Torres de Arco e Flecha).
- * Design de Nível Estratégico: Um mapa 2D horizontal cortado por um rio, forçando os inimigos a afunilarem-se na ponte central.
- * Gestão de Recursos: Derrota monstros para ganhares Ouro e acumulares Pontuação, utilizando esses recursos para melhorar as tuas defesas.
+---
+## 🎮 Como jogar
+
+**Objetivo:** impedir que os zumbis cheguem ao castelo, derrotando cada onda com as torres que construíres.
+
+1. **Escolhe uma torre** nos botões do canto inferior direito. Cada torre tem um preço em ouro; só é possível selecioná-la se tiveres moedas suficientes.
+2. **Posiciona a torre** movendo o mouse sobre o mapa. Uma pré-visualização (*fantasma*) mostra a torre e a **área de alcance** dela. Verde indica que é possível construir ali; vermelho indica que o local é inválido ou está ocupado.
+3. **Clica para construir.** O valor é descontado do teu ouro.
+4. **Inicia a onda** no botão **GO**. Os zumbis saem da caverna e seguem o caminho até o castelo.
+5. **Ganha ouro** ao derrotar os inimigos e usa-o para construir mais torres antes da próxima onda.
+
+| Ação | Controle |
+|---|---|
+| Selecionar / desselecionar torre | Clique no botão da torre |
+| Construir torre | Clique esquerdo do mouse no mapa |
+| Iniciar a próxima onda | Botão **GO** |
 
 ---
-## 🛠️ Tecnologias Utilizadas
- * Motor de Jogo (Engine): Unity 
- * Linguagem de Programação: C#
- * Arte: 2D isométrica.
+
+## ✨ Funcionalidades
+
+| Funcionalidade | Estado |
+|---|---|
+| Construção de torres em áreas específicas do mapa, com pré-visualização e indicador de alcance | ✅ Implementado |
+| Três tipos de torre selecionáveis, com preço em ouro | ✅ Implementado |
+| Sistema de ouro (ganho ao abater inimigos, gasto ao construir) | ✅ Implementado |
+| Sistema de ondas com botão **GO** e três categorias de inimigo | ✅ Implementado |
+| Torres que escolhem o alvo mais avançado no caminho e disparam projéteis | ✅ Implementado |
+| Mapa isométrico com caminhos que se dividem e se unem | ✅ Implementado |
+| Pontos de vida do castelo e condição de derrota | ✅ Implementado |
+| Menu inicial | 🗓️ Planejado |
+| Pontuação | 🗓️ Planejado |
+| Ranking | 🗓️ Planejado |
 
 ---
-## 🚀 Como Jogar / Testar (Instalação)
 
-Em desenvolvimento...
+## 🗼 Torres de defesa
 
----
-## 💀​ Inimigos
-Há 3 tipos distintos de inimigos simples(+ chefe final):
-* Inimigo básico (cavaleiro)
-* Inimigo rápido,porém fraco (camponês)
-* Inimigo lento, porém resistente (carrasco)
+Cada torre tem uma função tática diferente: alcance, dano e efeito sobre os inimigos.
 
----
-## Mecânicas do Jogador 
-O jogador tem acesso a N sistemas para conseguir responder aos desafios propostos pelos inimigos:
-* geração passiva de recursos
-    - permite geração de recursos para o jogador conseguir realizar ações em casos onde ele ainda não estabeleceu inercia de vantagem
-* aquisição de recursos bônus de acordo com desempenho
-* aquisição e posicionamento de torres para estabelecer uma estrutura de defesa
-    - (tipos de torres serão estabelecidas futuramente)
-* reembolso de torres parcial
-* reposicionamento de torres
-* ajuste de parâmetros do jogo
+| Torre | Papel | Alcance | Dano | Preço |
+|---|---|---|---|---|
+| **Torre dos Arqueiros** | Atira de longe, com cadência alta | Longo | Baixo | 60 |
+| **Torre do Canhão** | Defesa pesada para curtas distâncias | Curto | Alto | 50 |
+| **Torre Arcana** | Controle da horda com magia de gelo | Médio | Baixo | 70 |
+
+> Os valores são os atuais e podem mudar com o balanceamento do jogo.
+
+Cada torre dispara o seu próprio projétil: a **flecha**, a **bala de canhão** e o **estilhaço de gelo**.
 
 ---
+
+## 💀 Inimigos
+
+Há três tipos de inimigos, cada um com sua característica única.
+
+| Inimigo | Perfil | Característica |
+|---|---|---|
+| **Cavaleiro** | Básico | Equilibrado em velocidade e resistência |
+| **Camponês** | Rápido | Veloz, porém frágil |
+| **Carrasco** | Lento | Lento, porém muito resistente |
+
+Os inimigos seguem o caminho do mapa e a sua direção de movimento é refletida na imagem que o jogador vê.
+
+---
+
+## 🧭 Mecânicas do jogador
+
+O jogador conta com vários sistemas para responder aos desafios propostos pelos inimigos.
+
+**Implementadas**
+- **Aquisição e posicionamento de torres** para montar uma estrutura de defesa.
+- **Ouro por abates**, que permite investir em novas torres.
+
+**Planejadas**
+- **Geração passiva de recursos:** garante ouro ao jogador em situações em que ainda não conseguiu estabelecer inércia de vantagem.
+- **Recursos bônus por desempenho.**
+- **Reembolso parcial** de torres.
+- **Reposicionamento** de torres.
+- **Ajuste de parâmetros do jogo.**
+
+> As mecânicas planejadas poderão ou não ser implementadas.
+
+---
+
 ## 🌊 Progressão de dificuldade
-Conforme as hordas de inimigos são derrotados e avança-se de fase, a dificuldade aumenta progressivamente. Cada vez mais, e diferentes, inimigos. Assim, desafiando cada vez mais as habilidade do jogador que deverá se adaptar as novas hordas que ameaçaram o seu progresso.
 
+Conforme as hordas são derrotadas e a fase avança, a dificuldade aumenta de forma progressiva: cada onda traz mais inimigos e de tipos diferentes, desafiando as habilidades do jogador, que deverá se adaptar às novas hordas que ameaçarão o seu progresso.
+
+Cada onda define a sua **duração** e a **quantidade de inimigos** de cada categoria (básicos, rápidos e fortes), e é iniciada pelo próprio jogador.
+
+---
+
+## 🛠️ Tecnologias
+
+| | |
+|---|---|
+| **Motor de jogo** | Unity 6 (`6000.6.7f1`) |
+| **Linguagem** | C# |
+| **Interface** | Unity UI + TextMeshPro |
+| **Mapa** | Tilemaps em grid isométrico |
+| **Arte** | 2D isométrica (Software: LibreSprite) |
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Mapa isométrico com caminhos
+- [x] Construção de torres com pré-visualização e alcance
+- [x] Sistema de ouro
+- [x] Sistema de ondas
+- [x] Três tipos de inimigo e três tipos de torre
+- [ ] Vida do castelo, vitória e derrota
+- [ ] Geração passiva de ouro
+- [ ] Menu inicial, pausa e opções
+- [x] Sons e música
+
+---
+
+## 👥 Integrantes
+
+| Nome | Matrícula | Responsabilidades |
+|---|---|---|
+| Artur Mesquita Jeager | 188354 | *(descrever)* |
+| João Pedro de Oliveira de Carvalho | 188402 | *(descrever)* |
+| Octávio Francisco Petry Bortoluzzi | 188380 | *(descrever)* |
+
+---
 
 
 
