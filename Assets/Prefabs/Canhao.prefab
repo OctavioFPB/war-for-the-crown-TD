@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4939283284561590624}
   - component: {fileID: 2735569616470898135}
   - component: {fileID: -6523258160851241773}
+  - component: {fileID: -1392377787087042029}
   m_Layer: 0
   m_Name: Canhao
   m_TagString: Untagged
@@ -105,8 +106,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b569d60e0759ba041b240a2dc2492616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
+  upgradeStages: []
+  upgradeStage: 0
+  towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: e13e0e61a4f2e1a40822a9703ba0f07b, type: 3}
   FireRate: 1
   Range: 4
   projectileprefab: {fileID: 7772521021208388516, guid: f6abca5b159914140a1d2ae347391a18, type: 3}
   firepoint: {fileID: 4939283284561590624}
   towerPrice: 30
+--- !u!61 &-1392377787087042029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874153632037706098}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.88, y: 1.47}
+    newSize: {x: 1.88, y: 1.47}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.88, y: 1.47}
+  m_EdgeRadius: 0
