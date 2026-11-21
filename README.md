@@ -15,7 +15,7 @@
 - [Inimigos](#-inimigos)
 - [Mecânicas do jogador](#-mecânicas-do-jogador)
 - [Progressão de dificuldade](#-progressão-de-dificuldade)
-- [Tecnologias](#-tecnologias)
+- [Tecnologias](#%EF%B8%8F-tecnologias)
 - [Como executar o projeto](#-como-executar-o-projeto)
 - [Roadmap](#%EF%B8%8F-roadmap)
 - [Integrantes](#-integrantes)
