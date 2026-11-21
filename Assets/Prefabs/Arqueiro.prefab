@@ -106,7 +106,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b569d60e0759ba041b240a2dc2492616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
-  upgradeStages: []
+  upgradeStages:
+  - range: 7
+    fireRate: 0.7
+    price: 50
+  - range: 8
+    fireRate: 0.65
+    price: 60
+  - range: 9
+    fireRate: 0.6
+    price: 80
   upgradeStage: 0
   towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: e13e0e61a4f2e1a40822a9703ba0f07b, type: 3}
   FireRate: 0.8
