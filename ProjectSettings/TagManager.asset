@@ -41,6 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 659264261
+    locked: 0
+  - name: Castle
+    uniqueID: 3010549331
+    locked: 0
+  - name: Gameplay
+    uniqueID: 1574361737
+    locked: 0
+  - name: Tower and Zombies
+    uniqueID: 3165769887
+    locked: 0
   - name: Ghost
     uniqueID: 321726993
     locked: 0

@@ -7,6 +7,7 @@ public class TowerPlacerV2 : MonoBehaviour
 {
     public Tilemap placementMap;
     public Tilemap nonPlaceableMap;
+    public Tilemap nonPlaceableDeco;
 
     public AudioClip placeSFX;
 
@@ -49,7 +50,7 @@ public class TowerPlacerV2 : MonoBehaviour
         
         ghostInstance.GetComponent<GhostTower>().ShowRange(selected.Range, Tower.YRatio);
 
-        bool valid = placementMap.HasTile(cellPos) && !occupiedTiles.Contains(cellPos);
+        bool valid = placementMap.HasTile(cellPos) && !occupiedTiles.Contains(cellPos) && !nonPlaceableMap.HasTile(cellPos) && !nonPlaceableDeco.HasTile(cellPos);
 
         ghostInstance.GetComponent<GhostTower>().SetValid(valid);
     }

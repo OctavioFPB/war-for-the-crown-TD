@@ -78,8 +78,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1129197409
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1529755892596504471, guid: e5cb80d6d7897bb4b8bf355d3fc5c2a2, type: 3}
@@ -109,4 +109,4 @@ MonoBehaviour:
   Range: 4.5
   projectileprefab: {fileID: 3535576677899598420, guid: b26a56d8c771b9b40949e3e8179a2356, type: 3}
   firepoint: {fileID: 3634107763021371065}
-  towerPrice: 80
+  towerPrice: 65
