@@ -6,6 +6,22 @@
 
 ---
 
+## 📑 Índice
+
+- [História](#-história)
+- [Como jogar](#-como-jogar)
+- [Funcionalidades](#-funcionalidades)
+- [Torres de defesa](#-torres-de-defesa)
+- [Inimigos](#-inimigos)
+- [Mecânicas do jogador](#-mecânicas-do-jogador)
+- [Progressão de dificuldade](#-progressão-de-dificuldade)
+- [Tecnologias](#%EF%B8%8F-tecnologias)
+- [Como executar o projeto](#-como-executar-o-projeto)
+- [Roadmap](#%EF%B8%8F-roadmap)
+- [Integrantes](#-integrantes)
+
+---
+
 ## 📜 História
 
 Nos confins do mundo conhecido, a outrora modesta colônia de **Quimera**, a joia mais próspera e distante de **Novigrad**, vivia a sua verdadeira Era de Ouro. Sob a liderança afável da **Princesa Penélope**, o reino florescia. Os campos transbordavam com colheitas fartas e as minas vertiam riquezas que garantiam uma vida pacífica e abundante para todos os cidadãos.
