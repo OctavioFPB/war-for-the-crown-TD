@@ -17,7 +17,7 @@
 - [Progressão de dificuldade](#-progressão-de-dificuldade)
 - [Tecnologias](#-tecnologias)
 - [Como executar o projeto](#-como-executar-o-projeto)
-- [Roadmap](#-roadmap)
+- [Roadmap](#%EF%B8%8F-roadmap)
 - [Integrantes](#-integrantes)
 
 ---
