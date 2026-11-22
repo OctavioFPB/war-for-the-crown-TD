@@ -11,3 +11,7 @@
 *.csproj
 *.sln 
 *.slnx
+.vscode/
+*.suo
+*.user
+/[Mm]emoryCaptures/
