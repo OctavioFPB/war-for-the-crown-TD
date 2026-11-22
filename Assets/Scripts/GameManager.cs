@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     [Header("Menu")]
     public string menuSceneName = "MainMenu";
 
-
     void Awake()
     {
         Instance = this;
