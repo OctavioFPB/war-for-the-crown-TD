@@ -23,5 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Diff Menu.unity
     guid: b8d261174e595974197ff8e1b7ca010e
+  - enabled: 1
+    path: Assets/InfosAboutTheGame.unity
+    guid: 3ee09c0dc6cf5287fa08d0dafeba5efd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
