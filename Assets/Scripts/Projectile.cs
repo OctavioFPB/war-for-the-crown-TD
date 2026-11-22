@@ -68,6 +68,8 @@ public class Projectile : MonoBehaviour
             if (e.health <= 0) 
             {
                 Destroy(e.gameObject);
+                if (e.health == 0 && GameManager.Instance != null)
+                    GameManager.Instance.AddScore(e.reward * 10);
                 CoinManager.instance.UpdateCoins(e.reward);
                 AudioManager.Instance.PlaySFX(deathSFX);
             }

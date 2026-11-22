@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject defeatPanel;
 
     private bool gameEnded = false;
+    private int score = 0;
 
     [Header("Menu")]
     public string menuSceneName = "MainMenu";
@@ -27,10 +28,27 @@ public class GameManager : MonoBehaviour
         defeatPanel.SetActive(false);
     }
 
+    public void AddScore(int amount)
+    {
+        if (!gameEnded) score += amount;
+    }
+
+    void SubmitScore(bool won)
+    {
+        if (won)
+        {
+            int hp = HealthManager.Instance != null ? HealthManager.Instance.health : 0;
+            int coins = CoinManager.instance != null ? CoinManager.instance.coins : 0;
+            score += 1000 + hp * 20 + coins;
+        }
+        RankingManager.Submit(SceneManager.GetActiveScene().name, "Player", score);
+    }
+
     public void Victory()
     {
         if (gameEnded) return;
         gameEnded = true;
+        SubmitScore(true);
         victoryPanel.SetActive(true);
         Time.timeScale = 0f;
     }
@@ -39,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         if (gameEnded) return;
         gameEnded = true;
+        SubmitScore(false);
         defeatPanel.SetActive(true);
         Time.timeScale = 0f;
     }
