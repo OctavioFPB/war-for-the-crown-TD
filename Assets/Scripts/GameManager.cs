@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     [Header("Menu")]
     public string menuSceneName = "MainMenu";
 
-    private bool gameEnded = false;
 
     void Awake()
     {
