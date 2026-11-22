@@ -9,6 +9,11 @@ public class Enemy : MonoBehaviour
     public Transform[] waypoints;
     public int currentWayPoint = 0;
 
+    public static int AliveCount = 0;
+
+    void OnEnable()  { AliveCount++; }
+    void OnDestroy() { AliveCount--; }
+
     [Header("Animacao")]
     public float frameRate = 0.15f;
     private float timer;

@@ -9,7 +9,7 @@ public class CoinManager : MonoBehaviour
     public int coins;
     public TextMeshProUGUI coinTxt;
 
-    public int coinsPerTick = 1;
+    public int coinsPerTick = 2;
     public float tickInterval = 3f;
 
     private void Awake()
