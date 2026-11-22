@@ -364,6 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594ef5ca39a64e6ad875bac21e67b15e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  diffLevel: PrincipalGameSceneNormal
 --- !u!4 &344824450
 Transform:
   m_ObjectHideFlags: 0
@@ -797,14 +798,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 344824449}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+        m_MethodName: LoadStart
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: PrincipalGameSceneNormal
+          m_StringArgument: PrincipalGameSceneEasy
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &730260327
@@ -1334,7 +1335,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1155761748}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 344824449}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Diff Menu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1155761748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,6 +1644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f1c0b0a81d53fcb185567b42502a3e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  diffLevel: PrincipalGameSceneNormal
 --- !u!1 &2016958929
 GameObject:
   m_ObjectHideFlags: 0
