@@ -7944,7 +7944,7 @@ MonoBehaviour:
     fastEnemies: 0
     strongEnemies: 0
   - duration: 15
-    normalEnemies: 10
+    normalEnemies: 7
     fastEnemies: 2
     strongEnemies: 0
   - duration: 15
@@ -7965,10 +7965,10 @@ MonoBehaviour:
     strongEnemies: 1
   - duration: 10
     normalEnemies: 13
-    fastEnemies: 1
+    fastEnemies: 2
     strongEnemies: 2
   - duration: 5
-    normalEnemies: 10
+    normalEnemies: 13
     fastEnemies: 6
     strongEnemies: 1
   - duration: 5

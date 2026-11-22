@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 1.5
-  health: 30
+  health: 22
   reward: 15
   damage: 7
   waypoints: []
