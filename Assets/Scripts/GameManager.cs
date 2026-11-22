@@ -9,10 +9,10 @@ public class GameManager : MonoBehaviour
     public GameObject victoryPanel;
     public GameObject defeatPanel;
 
-    private bool gameEnded = false;
-
     [Header("Menu")]
     public string menuSceneName = "MainMenu";
+
+    private bool gameEnded = false;
 
     void Awake()
     {
@@ -49,4 +49,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void GoToMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(menuSceneName);
+    }
 }
