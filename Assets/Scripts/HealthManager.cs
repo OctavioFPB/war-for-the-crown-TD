@@ -1,10 +1,8 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
-    
     public static HealthManager Instance;
     public int health = 100;
     public TextMeshProUGUI healthTxt;

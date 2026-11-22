@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     [Header("Menu")]
     public string menuSceneName = "MainMenu";
 
+    private bool gameEnded = false;
+
     void Awake()
     {
         Instance = this;
@@ -68,4 +70,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void GoToMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(menuSceneName);
+    }
 }

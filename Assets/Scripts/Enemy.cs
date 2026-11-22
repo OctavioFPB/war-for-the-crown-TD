@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
 
     public static int AliveCount = 0;
 
-    void OnEnable()  { AliveCount++; }
+    void OnEnable() { AliveCount++; }
     void OnDestroy() { AliveCount--; }
 
     [Header("Animacao")]
@@ -57,12 +57,12 @@ public class Enemy : MonoBehaviour
             currentWayPoint++;
             if (currentWayPoint >= waypoints.Length)
             {
-                HealthManager.Instance.UpdateHealth(-damage);
+                if (HealthManager.Instance != null)
+                    HealthManager.Instance.UpdateHealth(-damage);
 
                 Destroy(gameObject);
                 return;
             }
-
         }
     }
 
@@ -84,13 +84,13 @@ public class Enemy : MonoBehaviour
         string nome;
         if (screenDir.y >= 0)
         {
-            if (screenDir.x >= 0) { current = walkRight;   nome = "Direita"; }
-            else                  { current = walkUp;    nome = "Cima"; }
+            if (screenDir.x >= 0) { current = walkRight; nome = "Direita"; }
+            else { current = walkUp; nome = "Cima"; }
         }
         else
         {
             if (screenDir.x >= 0) { current = walkDown; nome = "Baixo"; }
-            else                  { current = walkLeft;  nome = "Esquerda"; }
+            else { current = walkLeft; nome = "Esquerda"; }
         }
 
         if (logDirection) Debug.Log($"Direcao: {nome}", this);
@@ -105,5 +105,4 @@ public class Enemy : MonoBehaviour
         if (current != null && current.Length > frameIndex)
             spriteRenderer.sprite = current[frameIndex];
     }
-
 }
