@@ -2300,8 +2300,11 @@ MonoBehaviour:
   coins: 100
   coinTxt: {fileID: 1814187753}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &133571688
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &172183385
 >>>>>>> Stashed changes
 GameObject:
