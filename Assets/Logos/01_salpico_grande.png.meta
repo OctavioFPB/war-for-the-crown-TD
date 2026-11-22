@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 25460d644414e9e0c9f6a1dd6666cbc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5188536452132918684
+    second: 01_salpico_grande_0
+  - first:
+      213: 999907149574892226
+    second: 01_salpico_grande_1
+  - first:
+      213: -43283029857934957
+    second: 01_salpico_grande_2
+  - first:
+      213: -3744367775412738639
+    second: 01_salpico_grande_3
+  - first:
+      213: -7457314405250889086
+    second: 01_salpico_grande_4
+  - first:
+      213: -4038701043277614815
+    second: 01_salpico_grande_5
+  - first:
+      213: 928992303724301034
+    second: 01_salpico_grande_6
+  - first:
+      213: -154003078192680742
+    second: 01_salpico_grande_7
+  - first:
+      213: 7263008824240989115
+    second: 01_salpico_grande_8
+  - first:
+      213: 1798061548620581828
+    second: 01_salpico_grande_9
+  - first:
+      213: 998567106943194924
+    second: 01_salpico_grande_10
+  - first:
+      213: -3851163121508107665
+    second: 01_salpico_grande_11
+  - first:
+      213: -7870926886430390422
+    second: 01_salpico_grande_12
+  - first:
+      213: 5485663930518578905
+    second: 01_salpico_grande_13
+  - first:
+      213: -2476560559318687732
+    second: 01_salpico_grande_14
+  - first:
+      213: -6776795063174544277
+    second: 01_salpico_grande_15
+  - first:
+      213: 3408628206675972519
+    second: 01_salpico_grande_16
+  - first:
+      213: 4239108985878831127
+    second: 01_salpico_grande_17
+  - first:
+      213: 8574049327643841865
+    second: 01_salpico_grande_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 01_salpico_grande_0
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 822
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c955c85c962610840800000000000000
+      internalID: 5188536452132918684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 832
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cae8ca314260ed00800000000000000
+      internalID: 999907149574892226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_2
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 846
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e38c405a366ff0800000000000000
+      internalID: -43283029857934957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 684
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5aa16c855590cc0800000000000000
+      internalID: -3744367775412738639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 174
+        width: 661
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a0e981f0c428890800000000000000
+      internalID: -7457314405250889086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_5
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 607
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12130719cc6a3f7c0800000000000000
+      internalID: -4038701043277614815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 549
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea0f86049174ec00800000000000000
+      internalID: 928992303724301034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_7
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 458
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0320e240fdcddf0800000000000000
+      internalID: -154003078192680742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 417
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb369696b046bc460800000000000000
+      internalID: 7263008824240989115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 428
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb81d1b37ff3f810800000000000000
+      internalID: 1798061548620581828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_10
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 308
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c271dbd3e7f9bdd00800000000000000
+      internalID: 998567106943194924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_11
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 278
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6abc6a9b8bed8ac0800000000000000
+      internalID: -3851163121508107665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 171
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67ce31e2b9d4c290800000000000000
+      internalID: -7870926886430390422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 173
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6abbfc74ef02c40800000000000000
+      internalID: 5485663930518578905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 152
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00211dea4d71add0800000000000000
+      internalID: -2476560559318687732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_15
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 139
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b644cd78bccf3f1a0800000000000000
+      internalID: -6776795063174544277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_16
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 150
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a15c465b41ed4f20800000000000000
+      internalID: 3408628206675972519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 134
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7106973b92754da30800000000000000
+      internalID: 4239108985878831127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_salpico_grande_18
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 114
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94553ecaf642df670800000000000000
+      internalID: 8574049327643841865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      01_salpico_grande_0: 5188536452132918684
+      01_salpico_grande_1: 999907149574892226
+      01_salpico_grande_10: 998567106943194924
+      01_salpico_grande_11: -3851163121508107665
+      01_salpico_grande_12: -7870926886430390422
+      01_salpico_grande_13: 5485663930518578905
+      01_salpico_grande_14: -2476560559318687732
+      01_salpico_grande_15: -6776795063174544277
+      01_salpico_grande_16: 3408628206675972519
+      01_salpico_grande_17: 4239108985878831127
+      01_salpico_grande_18: 8574049327643841865
+      01_salpico_grande_2: -43283029857934957
+      01_salpico_grande_3: -3744367775412738639
+      01_salpico_grande_4: -7457314405250889086
+      01_salpico_grande_5: -4038701043277614815
+      01_salpico_grande_6: 928992303724301034
+      01_salpico_grande_7: -154003078192680742
+      01_salpico_grande_8: 7263008824240989115
+      01_salpico_grande_9: 1798061548620581828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
