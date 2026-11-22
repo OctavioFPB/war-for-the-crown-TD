@@ -48,6 +48,7 @@ MonoBehaviour:
   speed: 2
   health: 8
   reward: 5
+  damage: 3
   waypoints: []
   currentWayPoint: 0
   frameRate: 0.15
