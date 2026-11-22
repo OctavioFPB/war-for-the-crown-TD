@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/InfosAboutTheGame.unity
     guid: 3ee09c0dc6cf5287fa08d0dafeba5efd
   - enabled: 1
+    path: Assets/RankingScene.unity
+    guid: 8a07a506056a28e478802817f9a99acc
+  - enabled: 1
     path: Assets/PrincipalGameSceneNormal.unity
     guid: 908819298c069fc46b11c87f7bdb94df
   - enabled: 1

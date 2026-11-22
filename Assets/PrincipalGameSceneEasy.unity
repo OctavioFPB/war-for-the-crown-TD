@@ -7708,8 +7708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165e479188d3df28fb3d121ca2381a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  victoryPanel: {fileID: 0}
-  defeatPanel: {fileID: 0}
+  victoryPanel: {fileID: 1214420567}
+  defeatPanel: {fileID: 1226114424}
   menuSceneName: Menu Principal
 --- !u!4 &1594677683
 Transform:
