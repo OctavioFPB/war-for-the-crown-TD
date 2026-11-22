@@ -11,12 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PrincipalGameSceneEasy.unity
     guid: 4fee1e9048c0eefa0b413832923383ce
-  - enabled: 0
-    path: Assets/GameScene.unity
-    guid: d8123f305ac72519e9d89a45f289231a
   - enabled: 1
     path: Assets/PrincipalGameSceneHard.unity
     guid: 06ec838454620aed3af0ca84f7d5807e
+  - enabled: 1
+    path: Assets/PrincipalGameSceneNormal.unity
+    guid: c2b0f8895accd8a46b5b3f6cc07c6042
   - enabled: 1
     path: Assets/Menu Principal.unity
     guid: 8a17751626f0c00b884aa32d83c4ff62

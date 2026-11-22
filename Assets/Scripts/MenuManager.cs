@@ -5,10 +5,12 @@ public class MenuManager : MonoBehaviour
 {
     static public string diffLevel = "PrincipalGameSceneNormal";
     
+
     public void updateDiff(string input)
     {
         diffLevel = input;
     }
+    
 
     public void LoadStart()
     {
