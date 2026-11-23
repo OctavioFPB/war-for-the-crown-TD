@@ -137,20 +137,6 @@ Cada onda define a sua **duração** e a **quantidade de inimigos** de cada cate
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] Mapa isométrico com caminhos
-- [x] Construção de torres com pré-visualização e alcance
-- [x] Sistema de ouro
-- [x] Sistema de ondas
-- [x] Três tipos de inimigo e três tipos de torre
-- [ ] Vida do castelo, vitória e derrota
-- [ ] Geração passiva de ouro
-- [ ] Menu inicial, pausa e opções
-- [x] Sons e música
-
----
-
 ## 👥 Integrantes
 
 | Nome | Matrícula | Responsabilidades |
