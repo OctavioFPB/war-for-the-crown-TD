@@ -33,6 +33,18 @@ O preço dessa ganância foi a ruína. Ao escavarem o coração da cripta, os av
 O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança implacavelmente em direção aos portões do reino. A tua missão é erguer as defesas, posicionar torres e armadilhas ao longo do caminho e proteger o castelo a todo o custo. Não se trata apenas de defender minérios ou muralhas, mas de garantir que o brilho e a esperança do povo de Penélope não sejam engolidos pela escuridão.
 
 ---
+
+## ⬇️ Download
+
+[**Baixar a versão mais recente**](https://github.com/OctavioFPB/war-for-the-crown-TD/releases/latest)
+
+| Plataforma | Arquivo |
+| ---------- | ------- |
+| Linux      | `Quimera_v1.0_Linux.zip` |
+| Windows    | `Quimera_v1.0_Windows.zip` |
+
+---
+
 ## 🎮 Como jogar
 
 **Objetivo:** impedir que os zumbis cheguem ao castelo, derrotando cada onda com as torres que construíres.
