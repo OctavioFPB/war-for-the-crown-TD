@@ -110,8 +110,8 @@ MonoBehaviour:
   - range: 8
     fireRate: 0.7
     price: 15
-  - range: 9.5
-    fireRate: 0.6
+  - range: 9
+    fireRate: 0.65
     price: 30
   upgradeStage: 0
   towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: e13e0e61a4f2e1a40822a9703ba0f07b, type: 3}
