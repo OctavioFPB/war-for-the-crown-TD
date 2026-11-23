@@ -155,9 +155,9 @@ Cada onda define a sua **duração** e a **quantidade de inimigos** de cada cate
 
 | Nome | Matrícula | Responsabilidades |
 |---|---|---|
-| Artur Mesquita Jeager | 188354 | *(descrever)* |
-| João Pedro de Oliveira de Carvalho | 188402 | *(descrever)* |
-| Octávio Francisco Petry Bortoluzzi | 188380 | *(descrever)* |
+| Artur Mesquita Jeager | 188354
+| João Pedro de Oliveira de Carvalho | 188402
+| Octávio Francisco Petry Bortoluzzi | 188380
 
 ---
 
