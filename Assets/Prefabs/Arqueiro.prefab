@@ -107,11 +107,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   upgradeStages:
-  - range: 7
-    fireRate: 0.75
-    price: 15
   - range: 8
     fireRate: 0.7
+    price: 15
+  - range: 11
+    fireRate: 0.6
     price: 30
   upgradeStage: 0
   towerUpgradeUIPrefab: {fileID: 4006961609934136134, guid: e13e0e61a4f2e1a40822a9703ba0f07b, type: 3}
