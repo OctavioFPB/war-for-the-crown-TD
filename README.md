@@ -140,7 +140,7 @@ Cada onda define a sua **duração** e a **quantidade de inimigos** de cada cate
 ## 👥 Integrantes
 
 | Nome | Matrícula
-|---|---|---|
+|---|---|
 | Artur Mesquita Jeager | 188354
 | João Pedro de Oliveira de Carvalho | 188402
 | Octávio Francisco Petry Bortoluzzi | 188380
