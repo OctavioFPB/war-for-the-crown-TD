@@ -110,7 +110,7 @@ MonoBehaviour:
   - range: 8
     fireRate: 0.7
     price: 15
-  - range: 11
+  - range: 9.5
     fireRate: 0.6
     price: 30
   upgradeStage: 0
