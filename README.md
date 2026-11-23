@@ -62,9 +62,9 @@ O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança impla
 | Torres que escolhem o alvo mais avançado no caminho e disparam projéteis | ✅ Implementado |
 | Mapa isométrico com caminhos que se dividem e se unem | ✅ Implementado |
 | Pontos de vida do castelo e condição de derrota | ✅ Implementado |
-| Menu inicial | 🗓️ Planejado |
-| Pontuação | 🗓️ Planejado |
-| Ranking | 🗓️ Planejado |
+| Menu inicial | ✅ Implementado |
+| Pontuação | ✅ Implementado |
+| Ranking | ✅ Implementado |
 
 ---
 
