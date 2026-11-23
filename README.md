@@ -62,9 +62,9 @@ O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança impla
 | Torres que escolhem o alvo mais avançado no caminho e disparam projéteis | ✅ Implementado |
 | Mapa isométrico com caminhos que se dividem e se unem | ✅ Implementado |
 | Pontos de vida do castelo e condição de derrota | ✅ Implementado |
-| Menu inicial | 🗓️ Planejado |
-| Pontuação | 🗓️ Planejado |
-| Ranking | 🗓️ Planejado |
+| Menu inicial | ✅ Implementado |
+| Pontuação | ✅ Implementado |
+| Ranking | ✅ Implementado |
 
 ---
 
@@ -137,27 +137,13 @@ Cada onda define a sua **duração** e a **quantidade de inimigos** de cada cate
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] Mapa isométrico com caminhos
-- [x] Construção de torres com pré-visualização e alcance
-- [x] Sistema de ouro
-- [x] Sistema de ondas
-- [x] Três tipos de inimigo e três tipos de torre
-- [ ] Vida do castelo, vitória e derrota
-- [ ] Geração passiva de ouro
-- [ ] Menu inicial, pausa e opções
-- [x] Sons e música
-
----
-
 ## 👥 Integrantes
 
-| Nome | Matrícula | Responsabilidades |
-|---|---|---|
-| Artur Mesquita Jeager | 188354 | *(descrever)* |
-| João Pedro de Oliveira de Carvalho | 188402 | *(descrever)* |
-| Octávio Francisco Petry Bortoluzzi | 188380 | *(descrever)* |
+| Nome | Matrícula
+|---|---|
+| Artur Mesquita Jeager | 188354
+| João Pedro de Oliveira de Carvalho | 188402
+| Octávio Francisco Petry Bortoluzzi | 188380
 
 ---
 
