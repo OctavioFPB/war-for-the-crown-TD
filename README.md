@@ -36,12 +36,7 @@ O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança impla
 
 ## ⬇️ Download
 
-[**Baixar a versão mais recente**](https://github.com/OctavioFPB/war-for-the-crown-TD/releases/latest)
-
-| Plataforma | Arquivo |
-| ---------- | ------- |
-| Linux      | `Quimera_v1.0_Linux.zip` |
-| Windows    | `Quimera_v1.0_Windows.zip` |
+[**Click aqui para poder baixar a sua versão do jogo**](https://github.com/OctavioFPB/war-for-the-crown-TD/releases/latest)
 
 ---
 
