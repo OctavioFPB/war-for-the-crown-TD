@@ -40,6 +40,25 @@ public class towerUpgradeUI : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        
+
+
+        if (Input.GetMouseButtonDown(0) && !PointerOverThisUI())
+            Destroy(gameObject);
+
     }
- }
+
+    private static readonly System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult> hits = new();
+
+    bool PointerOverThisUI()
+    {
+        var data = new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current)
+        {
+            position = Input.mousePosition
+        };
+        hits.Clear();
+        UnityEngine.EventSystems.EventSystem.current.RaycastAll(data, hits);
+        foreach (var h in hits)
+            if (h.gameObject.transform.IsChildOf(transform)) return true;
+        return false;
+    }
+}
