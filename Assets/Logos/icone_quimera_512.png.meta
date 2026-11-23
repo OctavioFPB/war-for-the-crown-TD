@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f450b2729cafe0fa5b97e4299c307c93
+guid: b27b9a1905a31c298a82ee1d6b64729f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1751150694704053120
-    second: 05_escorrido_0
+      213: 7279306398015900382
+    second: icone_quimera_512_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 05_escorrido_0
+      name: icone_quimera_512_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 228
-        width: 1024
-        height: 796
+        x: 60
+        y: 15
+        width: 392
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08b730267465d4810800000000000000
-      internalID: 1751150694704053120
+      spriteID: eda47f00a9a450560800000000000000
+      internalID: 7279306398015900382
       vertices: []
       indices: 
       edges: []
@@ -137,7 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      05_escorrido_0: 1751150694704053120
+      icone_quimera_512_0: 7279306398015900382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
