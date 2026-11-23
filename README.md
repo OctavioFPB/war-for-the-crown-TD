@@ -36,7 +36,7 @@ O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança impla
 
 ## ⬇️ Download
 
-[**Click aqui para poder baixar a sua versão do jogo**](https://github.com/OctavioFPB/war-for-the-crown-TD/releases/latest)
+[**Click aqui para baixar a sua versão do jogo**](https://github.com/OctavioFPB/war-for-the-crown-TD/releases/latest)
 
 ---
 
