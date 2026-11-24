@@ -14,7 +14,7 @@ public class EscToMenu : MonoBehaviour
         DontDestroyOnLoad(go);
     }
 
-    void update()
+    void Update()
     {
         if (!Input.GetKeyDown(KeyCode.Escape)) return;
         if (SceneManager.GetActiveScene().name == TargetScene) return;
