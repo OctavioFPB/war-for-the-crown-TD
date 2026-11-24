@@ -38,6 +38,8 @@ O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança impla
 
 ## ⬇️ Download
 
+O jogo está disponível para PC de sistema operacional Linux e Windows, segue-se o link com o passo a passo da instalação:
+
 [**Click aqui para baixar a sua versão do jogo**](https://github.com/OctavioFPB/war-for-the-crown-TD/releases/latest)
 
 ---
