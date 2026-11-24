@@ -8,19 +8,19 @@
 
 ## 📑 Índice
 
-- [História](#%EF%B8%8F-história)
+- [História](#-história)
 - [Download](#%EF%B8%8F-download)
-- [Como jogar](#%EF%B8%8F-como-jogar)
-- [Funcionalidades](#%EF%B8%8F-funcionalidades)
-- [Torres de defesa](#%EF%B8%8F-torres-de-defesa)
-- [Inimigos](#%EF%B8%8F-inimigos)
-- [Mecânicas do jogador](#%EF%B8%8F-mecânicas-do-jogador)
+- [Como jogar](#-como-jogar)
+- [Funcionalidades](#-funcionalidades)
+- [Torres de defesa](#-torres-de-defesa)
+- [Inimigos](#-inimigos)
+- [Mecânicas do jogador](#-mecânicas-do-jogador)
 - [Vídeo demonstrativo](#%EF%B8%8F-vídeo-demonstrativo)
-- [Progressão de dificuldade](#%EF%B8%8F-progressão-de-dificuldade)
+- [Progressão de dificuldade](#-progressão-de-dificuldade)
 - [Tecnologias](#%EF%B8%8F-tecnologias)
-- [Como executar o projeto](#%EF%B8%8F-como-executar-o-projeto)
-- [Roadmap](#%EF%B8%8F-roadmap)
-- [Integrantes](#%EF%B8%8F-integrantes)
+- [Como executar o projeto](#-como-executar-o-projeto)
+- [Roadmap](#-roadmap)
+- [Integrantes](#-integrantes)
 
 ---
 
