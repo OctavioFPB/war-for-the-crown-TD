@@ -9,13 +9,13 @@
 ## 📑 Índice
 
 - [História](#-história)
-- [Download](#-download)
+- [Download](#%EF%B8%8F-download)
 - [Como jogar](#-como-jogar)
 - [Funcionalidades](#-funcionalidades)
 - [Torres de defesa](#-torres-de-defesa)
 - [Inimigos](#-inimigos)
 - [Mecânicas do jogador](#-mecânicas-do-jogador)
-- [Vídeo demonstrativo](#-vídeo-demonstrativo)
+- [Vídeo demonstrativo](#%EF%B8%8F-vídeo-demonstrativo)
 - [Progressão de dificuldade](#-progressão-de-dificuldade)
 - [Tecnologias](#%EF%B8%8F-tecnologias)
 - [Como executar o projeto](#-como-executar-o-projeto)
