@@ -88,11 +88,11 @@ O jogo está disponível para PC de sistema operacional Linux e Windows, segue-s
 
 Cada torre tem uma função tática diferente: alcance, dano e efeito sobre os inimigos.
 
-| Torre | Papel | Alcance | Dano | Preço |
+| Torre | Papel | Alcance | Preço |
 |---|---|---|---|---|
-| **Torre dos Arqueiros** | Atira de longe, com cadência alta | Longo | Baixo | 60 |
-| **Torre do Canhão** | Defesa pesada para curtas distâncias | Curto | Alto | 50 |
-| **Torre Arcana** | Controle da horda com magia de gelo | Médio | Baixo | 70 |
+| **Torre dos Arqueiros** | Atira de longe, com cadência alta | Longo | 30 |
+| **Torre do Canhão** | Defesa pesada para curtas distâncias | Curto | 45 |
+| **Torre Arcana** | Controle da horda com magia de gelo | Médio | 65 |
 
 > Os valores são os atuais e podem mudar com o balanceamento do jogo.
 
