@@ -116,7 +116,7 @@ Os inimigos seguem o caminho do mapa e a sua direção de movimento é refletida
 
 Conforme as hordas são derrotadas e a fase avança, a dificuldade aumenta de forma progressiva: cada onda traz mais inimigos e de tipos diferentes, desafiando as habilidades do jogador, que deverá se adaptar às novas hordas que ameaçarão o seu progresso.
 
-Cada onda define a sua **duração** e a **quantidade de inimigos** de cada categoria (básicos, rápidos e fortes), e é iniciada pelo próprio jogador.
+Cada onda define a sua **duração** e a **quantidade de inimigos** de cada categoria (básicos, rápidos e fortes), e é iniciada pelo próprio jogador. O jogador também pode optar por começar uma nova onda antes mesmo do fim da onda anterior, conforme o tempo das ondas.
 
 ---
 
