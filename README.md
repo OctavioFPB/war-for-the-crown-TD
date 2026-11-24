@@ -9,11 +9,13 @@
 ## 📑 Índice
 
 - [História](#-história)
+- [Download](#-download)
 - [Como jogar](#-como-jogar)
 - [Funcionalidades](#-funcionalidades)
 - [Torres de defesa](#-torres-de-defesa)
 - [Inimigos](#-inimigos)
 - [Mecânicas do jogador](#-mecânicas-do-jogador)
+- [Vídeo demonstrativo](#-vídeo-demonstrativo)
 - [Progressão de dificuldade](#-progressão-de-dificuldade)
 - [Tecnologias](#%EF%B8%8F-tecnologias)
 - [Como executar o projeto](#-como-executar-o-projeto)
@@ -55,6 +57,11 @@ O destino de Quimera está nas tuas mãos. A horda de mortos-vivos avança impla
 | Selecionar / desselecionar torre | Clique no botão da torre |
 | Construir torre | Clique esquerdo do mouse no mapa |
 | Iniciar a próxima onda | Botão **GO** |
+
+---
+## ▶️ Vídeo demonstrativo
+
+[**Acesso ao vídeo**](https://github.com/user-attachments/assets/09516eeb-fc85-432d-809c-7b704483caf0)
 
 ---
 
@@ -102,25 +109,6 @@ Há três tipos de inimigos, cada um com sua característica única.
 | **Carrasco** | Lento | Lento, porém muito resistente |
 
 Os inimigos seguem o caminho do mapa e a sua direção de movimento é refletida na imagem que o jogador vê.
-
----
-
-## 🧭 Mecânicas do jogador
-
-O jogador conta com vários sistemas para responder aos desafios propostos pelos inimigos.
-
-**Implementadas**
-- **Aquisição e posicionamento de torres** para montar uma estrutura de defesa.
-- **Ouro por abates**, que permite investir em novas torres.
-
-**Planejadas**
-- **Geração passiva de recursos:** garante ouro ao jogador em situações em que ainda não conseguiu estabelecer inércia de vantagem.
-- **Recursos bônus por desempenho.**
-- **Reembolso parcial** de torres.
-- **Reposicionamento** de torres.
-- **Ajuste de parâmetros do jogo.**
-
-> As mecânicas planejadas poderão ou não ser implementadas.
 
 ---
 
